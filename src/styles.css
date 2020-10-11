@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+.row > div {
+  padding: 20px;
+  border: 1px solid black;
+  line-height: 80px;
+  text-align: center;
+}
+.row {
+  margin: 0px;
+}
+
+.col {
+  margin: 1px;
+  height: 80px;
+  font-size: 30px;
+  font-family: Helvetica;
+  padding: 6px;
+}
+.board {
+  margin: 0 auto;
+  width: 75%;
+}
+#progressbar {
+  height: 25px;
+  background-color: rgb(187, 24, 24);
+}
+
+#insidebar {
+  background-color: green;
+  height: 25px;
+  border: 1px solid black;
+  width: 0%;
+  text-align: center;
+}
