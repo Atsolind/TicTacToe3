@@ -42,7 +42,7 @@ function insertValue(tableCell) {
     tableCell.style.backgroundColor = "rgb(250, 128, 114)";
     changePlayer();
   }
-  checkWinner();
+  //checkWinner();
 }
 
 function cellClick() {
